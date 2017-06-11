@@ -1,3 +1,7 @@
+a {
+	text-decoration: none;
+}
+
 .portfolio-header {
   position: relative;
   background-image: url(images/step1-bg.jpg);
@@ -50,7 +54,7 @@
 }
 
 .mdl-card__media {
-	background: linear-gradient(180deg,rgba(2,9,23,.25) 0,#020917 90%);
+	background: linear-gradient(180deg,rgba(2,9,23,.25) 0,#020917 1000%);
 	background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -61,7 +65,8 @@
 }
 
 .news-banner {
-	background: url(https://unikrn.com/news/wp-content/uploads/2015/10/hearthstone_blog.jpg);
+	/*background: url(https://unikrn.com/news/wp-content/uploads/2015/10/hearthstone_blog.jpg);*/
+	background: url(images/fionaWIP.png);
     opacity: 1;
     position: absolute;
     z-index: -1;
@@ -71,6 +76,9 @@
     right: 0;
     transition: opacity .3s;
     background-repeat: no-repeat;
+	background-size: cover;
+	width: inherit;
+	height: inherit;
 }
 
 .article-banner-1 {
@@ -247,5 +255,20 @@ footer {
 .mdl-button--accent.mdl-button--accent {
 	/* IV Orange */
     color: rgb(237, 135, 45);
+}
+
+.mdl-card__media {
+	background-color: transparent;
+}
+
+.main-article-media {
+	height: 305px;
+}
+
+/* Desktop */
+@media screen and ( min-width: 840px ){
+    .main-article-media {
+		height: 405px;
+	}
 }
 
