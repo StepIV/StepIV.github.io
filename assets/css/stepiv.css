@@ -1,0 +1,25 @@
+.company-logo {
+  background: url(../img/StepIV_white_withSubTitle.svg) center / cover;
+  background-size: 100% 100%;
+  /*width: 100%;*/
+  min-height: 32px;
+  margin: auto auto 10px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.my-brand {
+  font-size: 16px !important;
+  text-transform: none !important;
+}
+
+.logo-orange {
+  color: #f7941d;
+}
+
+.sub-logo {
+	color: gray;
+	font-size: 10px;
+}
